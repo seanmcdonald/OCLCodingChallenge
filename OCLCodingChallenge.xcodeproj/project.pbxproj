@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00E3B5B1B608B1800120F40 /* GitHub_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C00E3B5A1B608B1800120F40 /* GitHub_Logo.png */; };
+		C0584FA51B5F16B700BA3E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0584FA41B5F16B700BA3E9F /* main.m */; };
+		C0584FA81B5F16B700BA3E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0584FA71B5F16B700BA3E9F /* AppDelegate.m */; };
+		C0584FAE1B5F16B700BA3E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0584FAC1B5F16B700BA3E9F /* Main.storyboard */; };
+		C0584FB01B5F16B700BA3E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0584FAF1B5F16B700BA3E9F /* Assets.xcassets */; };
+		C0584FB31B5F16B700BA3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0584FB11B5F16B700BA3E9F /* LaunchScreen.storyboard */; };
+		C0584FBF1B5F180000BA3E9F /* GithubJobRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0584FBE1B5F180000BA3E9F /* GithubJobRequest.m */; };
+		C0584FC21B5F1D5800BA3E9F /* GithubJobPosting.m in Sources */ = {isa = PBXBuildFile; fileRef = C0584FC11B5F1D5800BA3E9F /* GithubJobPosting.m */; };
+		C0584FC51B5FE0F800BA3E9F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0584FC41B5FE0F800BA3E9F /* MainViewController.m */; };
+		C0EA2B801B6140A80092A9C4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA2B7F1B6140A80092A9C4 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C00E3B5A1B608B1800120F40 /* GitHub_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GitHub_Logo.png; sourceTree = "<group>"; };
+		C0584FA01B5F16B700BA3E9F /* OCLCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0584FA41B5F16B700BA3E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0584FA61B5F16B700BA3E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0584FA71B5F16B700BA3E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0584FAD1B5F16B700BA3E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0584FAF1B5F16B700BA3E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0584FB21B5F16B700BA3E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0584FB41B5F16B700BA3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0584FBD1B5F180000BA3E9F /* GithubJobRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubJobRequest.h; sourceTree = "<group>"; };
+		C0584FBE1B5F180000BA3E9F /* GithubJobRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubJobRequest.m; sourceTree = "<group>"; };
+		C0584FC01B5F1D5800BA3E9F /* GithubJobPosting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubJobPosting.h; sourceTree = "<group>"; };
+		C0584FC11B5F1D5800BA3E9F /* GithubJobPosting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubJobPosting.m; sourceTree = "<group>"; };
+		C0584FC31B5FE0F800BA3E9F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C0584FC41B5FE0F800BA3E9F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C0EA2B7E1B6140A80092A9C4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C0EA2B7F1B6140A80092A9C4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0584F9D1B5F16B700BA3E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0584F971B5F16B700BA3E9F = {
+			isa = PBXGroup;
+			children = (
+				C0584FA21B5F16B700BA3E9F /* OCLCodingChallenge */,
+				C0584FA11B5F16B700BA3E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0584FA11B5F16B700BA3E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0584FA01B5F16B700BA3E9F /* OCLCodingChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0584FA21B5F16B700BA3E9F /* OCLCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C0584FA61B5F16B700BA3E9F /* AppDelegate.h */,
+				C0584FA71B5F16B700BA3E9F /* AppDelegate.m */,
+				C0584FBC1B5F17C900BA3E9F /* Github */,
+				C0584FBB1B5F176900BA3E9F /* View Controllers */,
+				C0584FBA1B5F16E000BA3E9F /* Graphics */,
+				C0584FB41B5F16B700BA3E9F /* Info.plist */,
+				C0584FA31B5F16B700BA3E9F /* Supporting Files */,
+			);
+			path = OCLCodingChallenge;
+			sourceTree = "<group>";
+		};
+		C0584FA31B5F16B700BA3E9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0584FA41B5F16B700BA3E9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0584FBA1B5F16E000BA3E9F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				C00E3B5A1B608B1800120F40 /* GitHub_Logo.png */,
+				C0584FAC1B5F16B700BA3E9F /* Main.storyboard */,
+				C0584FAF1B5F16B700BA3E9F /* Assets.xcassets */,
+				C0584FB11B5F16B700BA3E9F /* LaunchScreen.storyboard */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		C0584FBB1B5F176900BA3E9F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0584FC31B5FE0F800BA3E9F /* MainViewController.h */,
+				C0584FC41B5FE0F800BA3E9F /* MainViewController.m */,
+				C0EA2B7E1B6140A80092A9C4 /* DetailViewController.h */,
+				C0EA2B7F1B6140A80092A9C4 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C0584FBC1B5F17C900BA3E9F /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				C0584FBD1B5F180000BA3E9F /* GithubJobRequest.h */,
+				C0584FBE1B5F180000BA3E9F /* GithubJobRequest.m */,
+				C0584FC01B5F1D5800BA3E9F /* GithubJobPosting.h */,
+				C0584FC11B5F1D5800BA3E9F /* GithubJobPosting.m */,
+			);
+			name = Github;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0584F9F1B5F16B700BA3E9F /* OCLCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0584FB71B5F16B700BA3E9F /* Build configuration list for PBXNativeTarget "OCLCodingChallenge" */;
+			buildPhases = (
+				C0584F9C1B5F16B700BA3E9F /* Sources */,
+				C0584F9D1B5F16B700BA3E9F /* Frameworks */,
+				C0584F9E1B5F16B700BA3E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCLCodingChallenge;
+			productName = OCLCodingChallenge;
+			productReference = C0584FA01B5F16B700BA3E9F /* OCLCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0584F981B5F16B700BA3E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sean McDonald";
+				TargetAttributes = {
+					C0584F9F1B5F16B700BA3E9F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C0584F9B1B5F16B700BA3E9F /* Build configuration list for PBXProject "OCLCodingChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0584F971B5F16B700BA3E9F;
+			productRefGroup = C0584FA11B5F16B700BA3E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0584F9F1B5F16B700BA3E9F /* OCLCodingChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0584F9E1B5F16B700BA3E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0584FB31B5F16B700BA3E9F /* LaunchScreen.storyboard in Resources */,
+				C0584FB01B5F16B700BA3E9F /* Assets.xcassets in Resources */,
+				C0584FAE1B5F16B700BA3E9F /* Main.storyboard in Resources */,
+				C00E3B5B1B608B1800120F40 /* GitHub_Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0584F9C1B5F16B700BA3E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0584FBF1B5F180000BA3E9F /* GithubJobRequest.m in Sources */,
+				C0584FA81B5F16B700BA3E9F /* AppDelegate.m in Sources */,
+				C0584FA51B5F16B700BA3E9F /* main.m in Sources */,
+				C0584FC51B5FE0F800BA3E9F /* MainViewController.m in Sources */,
+				C0584FC21B5F1D5800BA3E9F /* GithubJobPosting.m in Sources */,
+				C0EA2B801B6140A80092A9C4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0584FAC1B5F16B700BA3E9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0584FAD1B5F16B700BA3E9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0584FB11B5F16B700BA3E9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0584FB21B5F16B700BA3E9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0584FB51B5F16B700BA3E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0584FB61B5F16B700BA3E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0584FB81B5F16B700BA3E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				INFOPLIST_FILE = OCLCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdonald.OCLCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		C0584FB91B5F16B700BA3E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				INFOPLIST_FILE = OCLCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcdonald.OCLCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0584F9B1B5F16B700BA3E9F /* Build configuration list for PBXProject "OCLCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0584FB51B5F16B700BA3E9F /* Debug */,
+				C0584FB61B5F16B700BA3E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0584FB71B5F16B700BA3E9F /* Build configuration list for PBXNativeTarget "OCLCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0584FB81B5F16B700BA3E9F /* Debug */,
+				C0584FB91B5F16B700BA3E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0584F981B5F16B700BA3E9F /* Project object */;
+}
