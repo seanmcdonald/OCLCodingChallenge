@@ -20,4 +20,6 @@
 {
     return true;
 }
+
+- (void) applicationWillTerminate: (nonnull UIApplication*) application {}
 @end
